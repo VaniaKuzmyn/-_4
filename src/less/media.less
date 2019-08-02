@@ -1,0 +1,369 @@
+
+@media(max-width: 1600px){
+    .card{
+        &-outer{
+            flex-wrap: wrap;
+            max-width: 1200px;
+        }
+        &-item{
+            flex-basis: 33%;
+        }
+    }
+}
+
+@media(max-width: 1350px){
+    .share{
+        font-size: 15px;
+        &-item{
+            margin: 0 5px;
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    .share{
+        flex-wrap: wrap;
+        &-item{
+            flex-basis: 25%; 
+            margin: 5px 0;
+            &-just{
+                padding: 0;
+            }
+            &-i{
+                right: 25px;
+            }
+        }
+    }
+
+    .manager{
+        font-size: 14px;
+    }
+    
+    .hood{
+        padding-left: 10px;
+        &-content{
+            padding-right: 30px;
+        }
+    }
+
+    .menu{
+        flex-direction: column;
+        font-size: 15px;
+        &-item{
+            margin: 0;
+            &-just{
+                padding: 0;
+            }
+        }
+    }
+    
+   .select{
+       &-day{
+           width: 100%;
+           min-width: 100px;
+       }
+       &-ticket{
+           &-wrap{
+            flex: 0 1 33%;
+           }
+       }
+   }
+   .middle{
+       &-item{
+           width: auto;
+       }
+   }
+
+   .find{
+       flex-wrap: wrap;
+   }
+   .price{
+       &-wrap{
+        flex: 0 1 33%;
+       }
+       &-wrap{
+           justify-content: center;
+       }
+   }
+   .toddler{
+       flex: 0 1 33%;
+   }
+
+   .form{
+       &-btn{
+           margin: 25px 0;
+
+       }
+   }
+}
+@media(max-width: 1043px){
+    .footer{
+        &-wrapper{
+            flex-wrap: wrap;
+        }
+        &-item{
+            flex-basis: 45%;
+            margin: 10px;
+            &-social{
+
+            }
+        }
+    }
+   
+    .middle{
+        flex-wrap: wrap;
+        &-wrapper{
+            flex-basis: 45%;
+            & .middle-item{
+                width: 45%;
+            }
+        }
+        &-item{
+            flex-basis: 33%;
+        }
+    }
+    .select{
+        &-day{
+            &-wrap{
+                width: 46%;
+            }
+        }
+    }
+    .toddler{
+        flex: 0 1 40%;
+    }
+}
+
+@media(max-width: 915px){
+    .share{
+        justify-content: flex-start;
+        &-item{
+            flex-basis: 33%;
+        }
+    }
+
+    .menu{
+        flex-direction: row;
+        justify-content: space-between;
+        &-wrap{
+            width: 100%;
+        }
+    }
+
+    .address{
+        &_top{
+            display: none;
+        }
+    }
+
+    .middle{
+        &-item{
+        }
+        &-wrapper{
+            & .middle-item{
+            }
+        }
+    }
+    .form{
+        &-btn{
+            margin-top: 25px;
+        }
+    }
+    .find{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 768px){
+    .share{
+        &-item{
+            flex-basis: 50%;
+            margin: 1px 0;
+        }
+    }
+
+    .header{
+        padding-top: 250px;
+    }
+    .bottom{
+        padding: 0;
+    }
+    .top{
+        padding: 0;
+    }
+
+}
+@media(max-width: 680px){
+    .footer{
+        &-item{
+            flex-basis: 100%;
+        }
+    }
+    .slick{
+        &-title{
+            font-size: 40px;
+        }
+        &-content{
+            font-size: 24px;
+        }
+    }
+    .middle{
+        &-wrapper{
+            flex-basis: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & .middle-item{
+                flex-basis: 50%;
+            }
+            & .line{
+                padding: 0 0 0 25px;
+            }
+        }
+    }
+    .price{
+        &-wrap{
+            flex-basis: 60%;
+        }
+    }
+    
+}
+
+@media(max-width: 576px){
+    .burger{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .share{
+        display: none;
+        transform: scaleY(0);
+        transition: all 1s;
+        transform-origin: top;
+    }
+
+    .menu{
+        &-item{
+            margin: 0 10px;
+        }
+    }
+
+    .bottom{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+        &-item{
+            margin: 0;
+        }
+    }
+
+    .slick{
+        &-wrap{
+            & .slick-dots{
+                margin-top: 10px;
+            }
+        }
+        
+        &-title{
+            font-size: 35px;
+        }
+        &-content{
+            font-size: 20px;
+        }
+    }
+    .header{
+        padding-top: 140px;
+    }
+
+    .bottom{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .share{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgba(212, 1, 25, 0.88);
+        padding: 0 10px 5px;
+        &-item{
+            flex-basis: 33%;
+        }
+    }
+
+    .head{
+        flex-wrap: wrap;
+        &-item{
+            flex-basis: 100%;
+        }
+    }
+}
+
+@media(max-width: 480px){
+    .share{
+        &-item{
+            flex-basis: 50%;
+        }
+    }
+    .toddler{
+        flex: 0 1 100%;
+        margin-bottom: 20px;
+    }
+    .price{
+        &-wrap{
+            flex-basis: 100%;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    }
+    .select{
+        &-ticket{
+            &-wrap{
+                flex-basis: 100%;
+            }
+        }
+    }
+    .middle{
+        &-item{
+            flex-basis: 100%;
+        }
+    }
+}
+   
+@media(max-width: 400px){
+    .logo{
+        margin-right: 10px;
+    }
+    .hood{
+        justify-content: space-around;
+    }
+    .card{
+        &-item{
+            min-width: 295px;
+        }
+        &-price{
+            top: 70px;
+        }
+        &-title{
+            margin-bottom: 18px;
+        }
+        &-wrapper{
+            flex-direction: column;
+
+        }
+        &-inner{
+            margin-bottom: 10px;
+        }
+    }
+    
+   
+}

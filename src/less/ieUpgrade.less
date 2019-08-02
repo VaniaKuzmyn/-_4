@@ -1,0 +1,136 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .appearancenone{
+        &-i{
+            display: none;
+        }
+    }
+    .share{
+        &-item{
+            &-i{
+                display: none;
+            }
+        }
+    }
+    .bottom{
+        display: block;
+    }
+    .footer{
+        &-item{
+            transform: translateZ(1px);
+        }
+    }
+    
+    .price{
+        &-item{
+            width: auto;
+        }
+    }
+
+    @media(max-width: 1200px){
+        .select{
+            &-ticket{
+                width: auto;
+                &-wrap{
+                    text-align: right;
+                }
+            }
+        }
+        
+    }
+
+    @media(max-width: 1043px){
+        .find{
+            & .price{
+                &-wrap{
+                    flex: none ;
+                    }
+                }
+        }
+    }
+
+    @media(max-width: 915px){
+        .social{
+            &-title{
+                font-size: 19px;
+            }
+        }
+        .menu{
+            &-item{
+                margin: 0 5px;
+            }
+        }
+        .hood{
+            &-content{
+                flex-basis: 60%;
+            }
+        }
+        
+    }
+
+    @media(max-width: 768px){
+    
+        .hood{
+            &-content{
+                flex-basis: 50%;
+            }
+        }
+        .toddler{
+            flex: 0 100% !important;
+            margin-bottom: 15px;
+        }
+        .middle{
+            &-wrapper{
+                & .middle-item{
+                    flex-basis: 33% !important;
+                }
+            }
+        }
+    }
+
+   
+
+    @media(max-width: 450px){
+    
+        .card{
+            &-item{
+                min-width: 300px;
+            }
+            &-wrapper{
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center
+            }
+            &-price{
+                top: 65px;
+            }
+            &-title{
+                margin-bottom: 18px;
+            }
+        }
+        .select{
+            &-ticket{
+                &-wrap{
+                    flex: auto ;
+                }
+            }
+        }
+        .price{
+            &-wrap{
+                flex-direction: column;
+                width: 100%;
+            }
+            &-item{
+                width: 100% ;
+            }
+
+        }
+        .select{
+            &-ticket{
+                    width: 100%;
+            }
+        }
+    }
+}
+    
+
+    
